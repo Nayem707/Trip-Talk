@@ -1,4 +1,91 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+/******************** TOPBAR *****************/
+.top-header-container {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 155px;
+  border: 1px solid #0c8ce9;
+}
+
+/** social icons **/
+.social {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social span {
+  padding: 4px 4px 4px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c8ce9;
+  border-radius: 100%;
+}
+
+/** Logo **/
+.logo {
+  flex-shrink: 0;
+  width: 15%;
+}
+
+.logo-text {
+  position: absolute;
+  top: 35px;
+}
+
+.logo-line {
+  position: relative;
+  top: 25px;
+}
+
+/** search-bar **/
+.search {
+  height: 40px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  border: 2px solid black;
+  height: 40px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search button {
+  height: 40px;
+  display: flex;
+  padding: 0 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border: none;
+  color: aliceblue;
+}
+
+/******************** NAVBAR *****************/
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 155px;
+  background-color: #0c8ce9;
+  width: 100%;
+  height: 65px;
 }

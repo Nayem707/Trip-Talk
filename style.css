@@ -271,8 +271,7 @@ h1 {
 /******************** WHERE DO YOU WANT- SECTION *****************/
 .container-4 {
   padding-top: 50px;
-  margin-left: 130px;
-  margin-right: 130px;
+  margin: 0 130px;
 }
 
 .container-4 h1 {
@@ -329,16 +328,11 @@ h1 {
   font-size: 14px;
 }
 
-.grid-container-5 h1 {
-  padding: 0 0px 10px;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
 .more-link {
   display: flex;
-  gap: 10px;
   align-items: center;
+  gap: 10px;
+  padding-top: 10px;
 }
 
 .more-link a {
@@ -428,3 +422,75 @@ h1 {
 }
 
 /******************** MOST AMAZING PLACE SECTION *****************/
+
+.container-7 {
+  padding: 0px 130px;
+}
+
+.container-7 h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.grid-amazing-place {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* grid-amazing-place 👈 left */
+
+.grid-amazing-place .place-left {
+  width: 50%;
+}
+
+.place-artcle > h1 {
+  color: #0a0a0a;
+
+  font-family: Oswald;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  text-transform: uppercase;
+}
+
+.place-artcle-icon {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+/* grid-amazing-place 👉 left */
+.grid-amazing-place .place-right {
+  width: 50%;
+}
+
+.place-right article {
+  display: flex;
+  gap: 20px;
+  padding: 0px 0px 25px 0px;
+}
+
+.plcae-date-icon {
+  display: flex;
+}
+
+.place-artcle-text > h1 {
+  padding-top: 8px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 140% */
+  text-transform: uppercase;
+}
+
+.place-artcle-text > p {
+  color: #838383;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}

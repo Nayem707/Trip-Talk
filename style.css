@@ -19,7 +19,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 155px;
+  padding: 0 145px;
   border: 1px solid #0c8ce9;
 }
 
@@ -93,7 +93,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 140px;
+  padding: 0 130px;
   background-color: #030303;
   width: 100%;
   height: 75px;
@@ -133,8 +133,7 @@ h1 {
 /******************** HERO SECTION *****************/
 .hero-section-container {
   display: flex;
-  padding: 10px;
-  padding: 0 140px;
+  padding: 0 130px;
   gap: 10px;
 }
 
@@ -271,17 +270,161 @@ h1 {
 
 /******************** WHERE DO YOU WANT- SECTION *****************/
 .container-4 {
+  padding-top: 50px;
   margin-left: 130px;
   margin-right: 130px;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 10px;
-  padding: 10px;
 }
 
-.container-4 > div {
+.container-4 h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px 0;
+  gap: 25px;
+}
+
+.grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid black;
   text-align: center;
   font-size: 30px;
 }
+
+/******************** TOP DESTINATION SECTION *****************/
+.container-5 {
+  padding-top: 50px;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.container-5 > h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.grid-container-5 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 25px;
+}
+
+.grid-item > {
+  margin: 10px;
+}
+
+.date-icon {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.date-icon > p {
+  font-size: 14px;
+}
+
+.grid-container-5 h1 {
+  padding: 0 0px 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.more-link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.more-link a {
+  color: #838383;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.016px;
+}
+
+/******************** POST BLOG BANNER SECTION *****************/
+.container-6 {
+  padding: 80px 130px;
+}
+
+.post-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(4, 127, 250);
+  background: linear-gradient(
+    90deg,
+    rgba(4, 127, 250, 1) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(206, 12, 255, 1) 90%
+  );
+  height: 190px;
+}
+
+.post-blog-text {
+  color: #fff;
+
+  font-family: Oswald;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px; /* 127.273% */
+  letter-spacing: 0.11px;
+  padding: 50px;
+}
+
+/* post-blog-card */
+.post-blog-card {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  left: 200px;
+  padding: 12px 6px 0;
+}
+
+.post-card-1 {
+  position: absolute;
+  padding: 50px;
+}
+
+.post-card-2 {
+  position: absolute;
+  padding: 100px;
+}
+
+.post-card-3 {
+  position: absolute;
+  padding: 150px;
+}
+
+/* .post-blog-btn*/
+.post-blog-btn {
+  padding: 0 50px;
+}
+.post-blog-btn button {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.016px;
+  display: flex;
+  padding: 14px 20px;
+  align-items: center;
+  gap: 8px;
+  background: #047ffa;
+  border: none;
+  cursor: pointer;
+}
+
+/******************** MOST AMAZING PLACE SECTION *****************/

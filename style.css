@@ -15,7 +15,7 @@ p {
   font-family: Roboto;
 }
 
-/******************** TOPBAR *****************/
+/******************** 🔴🟠🟡 TOPBAR SECTION *****************/
 .top-header-container {
   width: 100%;
   height: 110px;
@@ -70,7 +70,7 @@ p {
   align-items: center;
 }
 
-.search-input {
+.search > .search-input {
   border: 2px solid black;
   height: 40px;
   width: 150px;
@@ -82,8 +82,8 @@ p {
 
 .search button {
   height: 40px;
-  display: flex;
   padding: 0 10px;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: black;
@@ -91,7 +91,7 @@ p {
   color: aliceblue;
 }
 
-/******************** NAVBAR *****************/
+/******************** 🔴🟠🟡 NAVBAR SECTION *****************/
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -133,16 +133,16 @@ p {
   cursor: pointer;
 }
 
-/******************** HERO SECTION *****************/
+/******************** 🔴🟠🟡 HERO SECTION *****************/
 .hero-section-container {
   display: flex;
-  padding: 0 130px;
+  padding: 0 150px 0px 125px;
   gap: 15px;
 }
 
-/** hero-left 👈 side item**/
+/**👈 hero-left side item**/
 .hero-left {
-  width: 85%;
+  width: 70%;
   padding-top: 2.5rem;
 }
 
@@ -205,8 +205,10 @@ p {
   word-wrap: break-word;
 }
 
-/** hero-rigth 👉 side item **/
+/**👉 hero-rigth side item **/
 .hero-rigth {
+  width: 30%;
+
   padding-top: 2.5rem;
   gap: 5px;
 }
@@ -270,7 +272,7 @@ p {
   text-transform: uppercase;
 }
 
-/******************** WHERE DO YOU WANT- SECTION *****************/
+/******************** 🔴🟠🟡 WHERE DO YOU WANT- SECTION *****************/
 .container-4 {
   padding-top: 50px;
   margin: 0 130px;
@@ -296,7 +298,7 @@ p {
   font-size: 30px;
 }
 
-/******************** TOP DESTINATION SECTION *****************/
+/******************** 🔴🟠🟡 TOP DESTINATION SECTION *****************/
 .container-5 {
   padding-top: 50px;
   margin-left: 130px;
@@ -360,7 +362,7 @@ p {
   letter-spacing: 0.016px;
 }
 
-/******************** POST BLOG BANNER SECTION *****************/
+/******************** 🔴🟠🟡 POST BLOG BANNER SECTION *****************/
 .container-6 {
   padding: 80px 130px;
 }
@@ -437,7 +439,7 @@ p {
   cursor: pointer;
 }
 
-/******************** MOST AMAZING PLACE SECTION *****************/
+/******************** 🔴🟠🟡 MOST AMAZING PLACE SECTION *****************/
 
 .container-7 {
   padding: 40px 110px 50px 130px;
@@ -456,16 +458,13 @@ p {
   gap: 31px;
 }
 
-/* grid-amazing-place 👈 left */
-
+/* 👈 grid-amazing-place left  */
 .place-left {
   width: 55%;
 }
-
 .place-artcle {
   width: 100%;
 }
-
 .place-artcle-icon {
   display: flex;
   gap: 15px;
@@ -478,7 +477,6 @@ p {
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.035px;
 }
-
 .place-artcle > .place-artcle-text > h1 {
   font-size: 32px;
   font-style: normal;
@@ -486,7 +484,6 @@ p {
   line-height: 40px;
   text-transform: uppercase;
 }
-
 .place-artcle > .place-artcle-text > p {
   padding: 0px 0px 31px;
   color: #838383;
@@ -497,17 +494,15 @@ p {
   line-height: 24px; /* 150% */
 }
 
-/* grid-amazing-place 👉 right */
+/* 👉 grid-amazing-place right  */
 .place-right {
   width: 60%;
 }
-
 .place-right article {
   display: flex;
   gap: 20px;
   padding: 0px 0px 25px 0px;
 }
-
 .plcae-date-icon {
   display: flex;
   gap: 10px;
@@ -519,7 +514,6 @@ p {
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.035px;
 }
-
 .place-artcle-text > h1 {
   padding: 10px 0;
   font-size: 20px;
@@ -528,7 +522,6 @@ p {
   line-height: 28px; /* 140% */
   text-transform: uppercase;
 }
-
 .place-artcle-text > p {
   color: #838383;
   font-family: Roboto;
@@ -538,34 +531,29 @@ p {
   padding: 0px 0px 25px;
 }
 
-/******************** LATEST FROM MY JOURNAL SECTION*****************/
+/******************** 🔴🟠🟡 LATEST FROM MY JOURNAL SECTION *****************/
 .container-8 {
   padding: 100px 130px 60px 130px;
 }
-
 .journal-left > h1 {
   margin-bottom: 20px;
   font-size: 32px;
   font-style: normal;
   text-transform: uppercase;
 }
-
 .grid-journal {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-/* grid-journal 👈 left */
-
+/* 👈 grid-journal left */
 .journal-left {
   width: 80%;
 }
-
 .journal-left > hr {
   margin: 32px 0;
 }
-
 .journal-artcle-icon {
   display: flex;
   gap: 10px;
@@ -578,7 +566,6 @@ p {
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.035px;
 }
-
 .journal-artcle > .journal-artcle-text > h1 {
   font-family: Oswald;
   font-size: 38px;
@@ -587,7 +574,6 @@ p {
   line-height: 48px; /* 126.316% */
   text-transform: uppercase;
 }
-
 .journal-artcle > .journal-artcle-text > p {
   padding: 15px 0;
   color: #838383;
@@ -599,18 +585,15 @@ p {
 }
 
 /* journal-artcle-grid */
-
 .journal-artcle-grid {
   display: grid;
   grid-template-columns: auto auto;
   padding: 10px 0;
   gap: 25px;
 }
-
 .journal-grid-item {
   background-color: rgba(255, 255, 255, 0.8);
 }
-
 .journal-grid-icon {
   display: flex;
   gap: 10px;
@@ -623,7 +606,6 @@ p {
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.035px;
 }
-
 .journal-grid-text > h1 {
   color: #0a0a0a;
   font-family: Oswald;
@@ -634,7 +616,6 @@ p {
   letter-spacing: 0.027px;
   text-transform: uppercase;
 }
-
 .journal-grid-text > p {
   color: #838383;
   font-family: Roboto;
@@ -647,27 +628,27 @@ p {
 }
 
 /* journal pagination */
-
 .pagination {
   display: flex;
   gap: 15px;
   padding: 35px 0;
 }
-
 .pagination > .pagination-item {
-  border: 1px solid black;
+  border: 1px solid #838383;
+  color: #838383;
+
   padding: 5px 10px;
   cursor: pointer;
 }
 
-/* grid-journal 👉 left */
+/* 👉 grid-journal right */
 .journal-right {
   width: 35%;
   background: #f4f4f4;
   padding: 15px;
 }
-
 .journal-right h1 {
+  padding: 0px 10px 12px 0;
   color: #0a0a0a;
   font-family: Oswald;
   font-size: 24px;
@@ -676,20 +657,15 @@ p {
   line-height: 28px; /* 116.667% */
   text-transform: uppercase;
 }
-
 .journal-right > article {
-  gap: 10px;
   padding: 10px 0;
 }
-
-.journal-right > article > .journal-img {
+.journal-right > article > .journal-img > img {
   width: 100%;
 }
-
 .journal-img {
   width: 100%;
 }
-
 .journal-date-icon {
   display: flex;
   align-items: center;
@@ -703,7 +679,6 @@ p {
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.035px;
 }
-
 .journal-artcle-text > div > h1 {
   padding: 8px 0;
   color: #0a0a0a;
@@ -714,7 +689,6 @@ p {
   line-height: 22px; /* 157.143% */
   text-transform: uppercase;
 }
-
 .journal-artcle-text > div > p {
   color: #838383;
   font-family: Roboto;
@@ -723,25 +697,20 @@ p {
   font-weight: 400;
   line-height: 20px;
 }
-
 .journal-right > hr {
   margin: 20px 0;
 }
 
 /* popular-post */
-
 .popular-post {
   display: flex;
 }
-
 .popular-img {
-  width: 90%;
+  width: 80%;
 }
-
 .popular-img img {
-  width: 100%;
+  width: 80%;
 }
-
 .popular-date-icon {
   display: flex;
   gap: 10px;
@@ -753,8 +722,8 @@ p {
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.035px;
 }
-
 .popular-post-text > h1 {
+  padding: 5px 0;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -768,11 +737,9 @@ p {
   padding: 20px;
   background: linear-gradient(0deg, #8704a8 0%, #022f5b 100%);
 }
-
 .popular-banner-text {
   padding: 20px;
 }
-
 .popular-banner-text h1 {
   color: #fff;
   font-family: Oswald;
@@ -782,7 +749,6 @@ p {
   line-height: 46px; /* 143.75% */
   letter-spacing: 0.08px;
 }
-
 .popular-banner-text p {
   color: #d9d9d9;
   font-family: Roboto;
@@ -793,7 +759,6 @@ p {
   letter-spacing: 0.08px;
   padding: 10px 0;
 }
-
 .popular-banner > .popular-banner-text > button {
   padding: 14px 20px;
   align-items: center;
@@ -818,19 +783,16 @@ p {
   position: relative;
   left: 280px;
   right: 100px;
-  top: 90px;
+  top: 83px;
   margin: 10px;
 }
-
 .popular-card-1 {
   position: absolute;
 }
-
 .popular-card-2 {
   position: absolute;
   padding: 40px;
 }
-
 .popular-card-3 {
   position: absolute;
   padding: 80px;
@@ -840,18 +802,249 @@ p {
 .popular-gallery h1 {
   padding-top: 20px;
 }
-
 .gallery-grid-container {
+  padding: 15px 0;
   display: grid;
   gap: 10px;
   grid-template-columns: auto auto auto;
 }
 
-.gallery-grid-item > img {
-  width: 100%;
-  object-fit: cover;
-}
+/******************** 🔴🟠🟡 FOOTER SECTION*****************/
 
 footer {
+  padding: 80px 130px 20px 130px;
   background-color: #030303;
+  color: #f6f6f6;
+}
+
+/* 💥 footer-item-one */
+.footer-item-one {
+  display: flex;
+  gap: 60px;
+}
+
+/*👈 footer-left-text */
+.footer-left-text {
+  width: 30%;
+}
+
+.footer-left-text > div {
+  display: grid;
+  gap: 25px;
+}
+
+/*👉 footer-rigth-link */
+.footer-rigth-text {
+  display: flex;
+  gap: 20px;
+}
+.footer-rigth-text {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* QUICK LINK-1 1️⃣ */
+.link-item-one {
+  width: 40%;
+  padding: 0 12px;
+}
+.link-item-one > h1 {
+  font-family: Oswald;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  text-transform: uppercase;
+}
+.link-item-one > ul {
+  padding: 10px 0;
+}
+.link-item-one > ul > li {
+  padding: 10px 0;
+}
+.link-item-one > ul > li > a {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.08px;
+  text-transform: uppercase;
+}
+
+/* POPOLAR LINK-2 2️⃣ */
+.link-item-two {
+  width: 80%;
+}
+.link-item-two > h1 {
+  font-family: Oswald;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  text-transform: uppercase;
+}
+.footer-link-two > img {
+  width: 50%;
+}
+.footer-link-two > article {
+  display: flex;
+  gap: 10px;
+  padding: 25px 0;
+}
+.footer-date-icon {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+}
+.footer-date-icon h1 {
+  align-self: stretch;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.footer-date-icon p {
+  color: #838383;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.035px;
+}
+
+/* MOST READ LINK-3 3️⃣*/
+.link-item-three {
+  width: 40%;
+}
+.link-item-three > h1 {
+  font-family: Oswald;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  text-transform: uppercase;
+}
+.footer-link-three > article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0;
+}
+.footer-date-icon {
+  padding: 15px 0;
+}
+.footer-date-icon p {
+  color: #838383;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.035px;
+}
+
+/* 💥💥 footer-item-two */
+.footer-item-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 0;
+}
+
+/*👈 footer-left-text */
+.left-item-text {
+  width: 50%;
+  display: grid;
+  gap: 5px;
+}
+.left-item-text > h1 {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px; /* 118.75% */
+  letter-spacing: 0.16px;
+}
+.left-item-text > p {
+  color: var(--base-colors-white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.08px;
+}
+
+/*👉 footer-rigth-link */
+.rigth-item-input {
+  display: flex;
+}
+.search-input {
+  display: flex;
+  width: 507px;
+  height: 56px;
+  border: 1.5px solid #666;
+  background: rgba(217, 217, 217, 0.12);
+}
+.search-input > input {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.search-input > button {
+  width: 200px;
+  height: 55px;
+  border: none;
+  background: #047ffa;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.08px;
+  cursor: pointer;
+}
+
+hr {
+  border: 0.5px solid #616264;
+}
+
+/* 💥💥💥 footer-item-three */
+.footer-item-three {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0;
+}
+.item-three-text p {
+  color: var(--base-colors-white, #fff);
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer-three-icon {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-three-icon p {
+  color: var(--base-colors-white, #fff);
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
 }
